@@ -199,6 +199,10 @@ nav .button{
   justify-content: center;
 }
 
+#solution .solution-container .solution-image img{
+  width: 600px;
+  height: 600px;
+}
 .solution-info{
   padding-top:102px;
   padding-bottom: 102px; 
@@ -248,4 +252,42 @@ nav .button{
   border-radius: 12px;
 }
 
+footer{
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top:120px ;
+  padding-bottom: 32px;
+  background-color: #001931;
+  color: white;
+}
 
+footer .footer-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer-container p{
+  font-size: 20px;
+}
+footer .social-links{
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+footer .social-links a{
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+footer li{
+  list-style: none;
+}
+footer .copy-write{
+  text-align: center;
+  margin-top: 80px;
+  font-size: 16px;
+  color: #A0A0A0;
+  margin-bottom: 32px;
+  padding-top: 30.5px;
+}
