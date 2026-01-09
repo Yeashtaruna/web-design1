@@ -12,7 +12,6 @@
 header{
   background-color: white;
   padding-top:16px ;
-
 }
 nav{
   width: 85%;
@@ -29,15 +28,22 @@ nav .menu{
   align-items: center;
   font-size: 16px;
   cursor: pointer;
+  margin-bottom: 18px;;
+}
+nav .menu li a{
+  text-decoration: none;
+  color: black;
 }
 
 nav .logo img{
   height: 60px;
+  margin-bottom: 16px;
 }
 
 nav .button{
   list-style: none;
   font-size: 16px;
+  margin-top: 10px;
 } 
 .btn-green{
   color: white;
@@ -58,6 +64,7 @@ nav .button{
   padding-top: 70px;
   padding-bottom: 134px;
   text-align: center;
+  height: 674px;
 }
 
 .hero-banner .hero-text{
@@ -102,4 +109,58 @@ nav .button{
   cursor: pointer;
   font-size: 16px;
   background-color: transparent;
+}
+
+#about{
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top:48px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+#about h1{
+  font-size: 48px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+#about h3{
+  font-size: 24px;
+  color: #001931;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#about p{
+  font-size: 16px;
+  color: #627382FF;
+}
+#about .about-info{
+  display: flex;
+  gap: 24px;
+  margin-top: 44px;
+  justify-content: center;
+}
+
+#about .about-info .info-card{
+  width: 20%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+  padding: 24px;
+}
+#about .about-info .info-card img{
+  width:32px;
+  height: 32px;
+  position: center;
+}
+#about .about-info .info-card .ellipse{
+  background-color: #F95555;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
