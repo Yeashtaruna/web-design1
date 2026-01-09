@@ -117,6 +117,8 @@ nav .button{
   padding-top:48px;
   text-align: center;
   background-color: whitesmoke;
+  max-width: 1600px;
+  margin: 0px auto;
 }
 
 #about h1{
@@ -145,8 +147,11 @@ nav .button{
 #about .about-info .info-card{
   width: 20%;
   background-color: white;
-  border-radius: 8px;
-  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 8px 8px 0px 0px;
+  box-shadow:
+    -8px 0px 8px 0px rgba(0, 0, 0, 0.02), 
+     8px 0px 8px 0px rgba(0, 0, 0, 0.02),  
+     0px -8px 8px 0px rgba(0, 0, 0, 0.02);
   padding: 24px;
 }
 #about .about-info .info-card img{
@@ -163,4 +168,52 @@ nav .button{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#solution{
+  padding: 120px;
+  background-color: white;
+  position: absolute;
+}
+
+#solution p{
+  font-size: 16px;
+  color: #627382FF;
+  margin-bottom: 32px;
+}
+#solution .color-green{
+  font-size: 16px;
+  color: #30B868;
+
+}
+
+
+#solution h1{
+  font-size: 48px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+#solution .solution-container{
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+
+.solution-info{
+  padding-top:102px;
+  padding-bottom: 102px; 
+}
+
+#solution ul{
+  list-style: none;
+  color: #001931;
+}
+#solution ul li{
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.fa-circle-check{
+  color: #30B868;
+  margin-right: 8px;
 }
